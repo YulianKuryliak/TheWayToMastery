@@ -1,7 +1,11 @@
+[project]
+name = "thewaytomastery"
+version = "0.0.1"
+
 [tool.black]
 line-length = 88
 
-[tool.ruff]
+[tool.ruff.lint]
 select = ["E", "F"]
 ignore = ["E501"]
 
